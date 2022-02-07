@@ -1,4 +1,4 @@
-package com.taghavi.cryptocurrencytest.ui.theme
+package com.taghavi.cryptocurrencytest.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

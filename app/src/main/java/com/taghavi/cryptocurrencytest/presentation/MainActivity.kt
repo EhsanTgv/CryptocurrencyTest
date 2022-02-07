@@ -1,4 +1,4 @@
-package com.taghavi.cryptocurrencytest
+package com.taghavi.cryptocurrencytest.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.taghavi.cryptocurrencytest.ui.theme.CryptocurrencyTestTheme
+import com.taghavi.cryptocurrencytest.presentation.ui.theme.CryptocurrencyTestTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
