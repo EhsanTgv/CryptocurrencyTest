@@ -1,6 +1,6 @@
 package com.taghavi.cryptocurrencytest.presentation
 
-sealed class Screen(val rout: String) {
-    object CoinListString : Screen("coinListScreen")
-    object CoinDetailsString : Screen("coinDetailsScreen")
+sealed class Screen(val route: String) {
+    object CoinListScreen : Screen("coinListScreen")
+    object CoinDetailsScreen : Screen("coinDetailsScreen")
 }
